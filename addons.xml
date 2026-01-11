@@ -32,14 +32,14 @@
 </addon>
 <addon id="repository.webshare.streamcinema"
        name="Webshare StreamCinema Repository"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="dlazebnikostka">
 
     <extension point="xbmc.addon.repository">
         <dir>
-            <info compressed="false">https://addonupdate.endora.site/repo/addons.xml</info>
-            <checksum verify="sha256">https://addonupdate.endora.site/repo/addons.xml.sha256</checksum>
-            <datadir zip="true">https://addonupdate.endora.site/repo/</datadir>
+            <info compressed="false">https://obamaaaaa.github.io/Webshare-repo/addons.xml</info>
+            <checksum verify="sha256">https://obamaaaaa.github.io/Webshare-repo/addons.xml.sha256</checksum>
+            <datadir zip="true">https://obamaaaaa.github.io/Webshare-repo/</datadir>
             <hashes>sha256</hashes>
         </dir>
     </extension>
