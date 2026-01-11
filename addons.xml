@@ -3,7 +3,7 @@
 <addon 
     id="plugin.video.webshare.stream.cinema" 
     name="Webshare Stream Cinema" 
-    version="0.2.1" 
+    version="0.2.1a" 
     provider-name="dlazebnikostka">
 
     <requires>
@@ -20,19 +20,20 @@
     <extension point="xbmc.addon.metadata">
         <summary>Webshare Stream Cinema</summary>
         <description>Přehrávej filmy a seriály přes Webshare pomocí TheMovieDb.</description>
+        <disclaimer></disclaimer>
+
         <platform>all</platform>
         <language>cs</language>
+
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
-
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-
 </addon>
 <addon id="repository.webshare.streamcinema"
        name="Webshare StreamCinema Repository"
-       version="1.0.6"
+       version="1.0.7"
        provider-name="dlazebnikostka">
 
     <extension point="xbmc.addon.repository">
@@ -49,10 +50,10 @@
         <description lang="cs">Repo pro automatické aktualizace doplňku Webshare Stream Cinema.</description>
         <platform>all</platform>
         <provides>files</provides>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 
-    <assets>
-        <icon>icon.png</icon>
-    </assets>
 </addon>
 </addons>
